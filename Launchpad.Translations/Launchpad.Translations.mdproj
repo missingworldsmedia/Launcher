@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>TranslationProject</ItemType>
+    <ProjectGuid>{66B99540-16D2-4480-9D3A-F539AECD88B4}</ProjectGuid>
+    <packageName>Launchpad</packageName>
+    <outputType>RelativeToOutput</outputType>
+    <relPath>locale</relPath>
+    <translations>
+      <translations>
+        <Translation isoCode="sv" />
+        <Translation isoCode="da" />
+        <Translation isoCode="nl" />
+        <Translation isoCode="bg" />
+        <Translation isoCode="de" />
+        <Translation isoCode="zh" />
+        <Translation isoCode="zh_CN" />
+        <Translation isoCode="zh_TW" />
+        <Translation isoCode="fr" />
+        <Translation isoCode="pt_BR" />
+        <Translation isoCode="tr" />
+        <Translation isoCode="es_ES" />
+        <Translation isoCode="es" />
+      </translations>
+    </translations>
+  </PropertyGroup>
+</Project>
